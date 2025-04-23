@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "📥 Baixando script de atualização de container..."
-curl -s https://raw.githubusercontent.com/SEU_USUARIO/docker-atualizador/main/atualizar-container.sh -o /usr/local/bin/atualizar-container
+curl -s https://raw.githubusercontent.com/toniuxuai/docker-atualizador/main/atualizar-container.sh -o /usr/local/bin/atualizar-container
 
 chmod +x /usr/local/bin/atualizar-container
 
